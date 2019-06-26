@@ -109,12 +109,15 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-nav.scrolled {
-  background: #000 url(../images/broken_noise.png) repeat;
+  margin-top: 0;
+  color: #0000ff  !important;
+  background: #fff;
   top: -82px;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .fh5co-nav.scrolled {
-    background: #000 url(../images/broken_noise.png) repeat;
+    color: #0000ff !important;
+    background: #fff;
   }
 }
 @media screen and (max-width: 480px) {
@@ -173,6 +176,19 @@ h1, h2, h3, h4, h5, h6, figure {
 .scrolled .fh5co-nav ul li a {
   color: rgba(0, 0, 0, 0.7);
 }
+
+.blue-color a{
+  color: rgba(0, 0, 255, 0.7)!important;
+}
+
+.blue-color a:hover{
+  color: #0000ff!important;
+}
+
+.blue-color.active a{
+  color: #0000ff!important;
+}
+
 .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
   color: white;
 }
@@ -257,7 +273,7 @@ h1, h2, h3, h4, h5, h6, figure {
   content: '';
   width: 30px;
   height: 2px;
-  background: #ea272d;
+  background: #00b3ee;
   margin: 0 auto;
 }
 
@@ -291,7 +307,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 255, 0.5);
 }
 
 @media screen and (max-width: 768px) {

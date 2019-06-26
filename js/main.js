@@ -200,8 +200,10 @@
 
 			if ( $win.scrollTop() > 100 ) {
 				$('.fh5co-nav').addClass('scrolled');
+				$('.fh5co-nav ul li').addClass('blue-color');
 			} else {
 				$('.fh5co-nav').removeClass('scrolled');
+				$('.fh5co-nav ul li').removeClass('blue-color');
 			}
 
 		});
